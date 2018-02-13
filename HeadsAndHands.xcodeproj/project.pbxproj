@@ -9,19 +9,33 @@
 /* Begin PBXBuildFile section */
 		498A37232032B3C8007AEA15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A37222032B3C8007AEA15 /* AppDelegate.swift */; };
 		498A37252032B3C8007AEA15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A37242032B3C8007AEA15 /* ViewController.swift */; };
-		498A37282032B3C8007AEA15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498A37262032B3C8007AEA15 /* Main.storyboard */; };
 		498A372A2032B3C8007AEA15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498A37292032B3C8007AEA15 /* Assets.xcassets */; };
 		498A372D2032B3C8007AEA15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498A372B2032B3C8007AEA15 /* LaunchScreen.storyboard */; };
+		498A37352032B449007AEA15 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A37342032B449007AEA15 /* LoginVC.swift */; };
+		498A373E2032B7DF007AEA15 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A373D2032B7DF007AEA15 /* TextField.swift */; };
+		498A37402032C727007AEA15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A373F2032C727007AEA15 /* main.m */; };
+		498A37452032CC43007AEA15 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A37442032CC43007AEA15 /* UIColor+Utils.swift */; };
+		498A37472032D64F007AEA15 /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A37462032D64F007AEA15 /* String+Utils.swift */; };
+		498A374B2032E637007AEA15 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A374A2032E637007AEA15 /* BaseVC.swift */; };
+		EF2CFB2B672393BE800EFFC1 /* Pods_HeadsAndHands.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8983E6BDAB26157406775757 /* Pods_HeadsAndHands.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		498A371F2032B3C8007AEA15 /* HeadsAndHands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadsAndHands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		498A37222032B3C8007AEA15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		498A37242032B3C8007AEA15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		498A37272032B3C8007AEA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		498A37292032B3C8007AEA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498A372C2032B3C8007AEA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		498A372E2032B3C8007AEA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498A37342032B449007AEA15 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		498A373D2032B7DF007AEA15 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		498A373F2032C727007AEA15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		498A37442032CC43007AEA15 /* UIColor+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		498A37462032D64F007AEA15 /* String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		498A374A2032E637007AEA15 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		8983E6BDAB26157406775757 /* Pods_HeadsAndHands.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeadsAndHands.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C550A96A069309E347587612 /* Pods-HeadsAndHands.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadsAndHands.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeadsAndHands/Pods-HeadsAndHands.debug.xcconfig"; sourceTree = "<group>"; };
+		F33AEEDE19FE1D0D68DDB1DF /* Pods-HeadsAndHands.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadsAndHands.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeadsAndHands/Pods-HeadsAndHands.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2CFB2B672393BE800EFFC1 /* Pods_HeadsAndHands.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10AADAF18DDE1B0673060AB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C550A96A069309E347587612 /* Pods-HeadsAndHands.debug.xcconfig */,
+				F33AEEDE19FE1D0D68DDB1DF /* Pods-HeadsAndHands.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		498A37162032B3C8007AEA15 = {
 			isa = PBXGroup;
 			children = (
+				498A373F2032C727007AEA15 /* main.m */,
 				498A37212032B3C8007AEA15 /* HeadsAndHands */,
 				498A37202032B3C8007AEA15 /* Products */,
+				10AADAF18DDE1B0673060AB1 /* Pods */,
+				ABCD403CEBCC926706908F9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,34 @@
 		498A37212032B3C8007AEA15 /* HeadsAndHands */ = {
 			isa = PBXGroup;
 			children = (
+				498A37412032CBEB007AEA15 /* Common */,
 				498A37222032B3C8007AEA15 /* AppDelegate.swift */,
 				498A37242032B3C8007AEA15 /* ViewController.swift */,
-				498A37262032B3C8007AEA15 /* Main.storyboard */,
+				498A37342032B449007AEA15 /* LoginVC.swift */,
+				498A373D2032B7DF007AEA15 /* TextField.swift */,
 				498A37292032B3C8007AEA15 /* Assets.xcassets */,
 				498A372B2032B3C8007AEA15 /* LaunchScreen.storyboard */,
 				498A372E2032B3C8007AEA15 /* Info.plist */,
 			);
 			path = HeadsAndHands;
+			sourceTree = "<group>";
+		};
+		498A37412032CBEB007AEA15 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				498A37442032CC43007AEA15 /* UIColor+Utils.swift */,
+				498A37462032D64F007AEA15 /* String+Utils.swift */,
+				498A374A2032E637007AEA15 /* BaseVC.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		ABCD403CEBCC926706908F9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8983E6BDAB26157406775757 /* Pods_HeadsAndHands.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 498A37312032B3C8007AEA15 /* Build configuration list for PBXNativeTarget "HeadsAndHands" */;
 			buildPhases = (
+				1F6351FEAE864D652BBD54ED /* [CP] Check Pods Manifest.lock */,
 				498A371B2032B3C8007AEA15 /* Sources */,
 				498A371C2032B3C8007AEA15 /* Frameworks */,
 				498A371D2032B3C8007AEA15 /* Resources */,
+				1255382D71B96CF0385124F8 /* [CP] Embed Pods Frameworks */,
+				4D4AAF7CEEED57A24A0021EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +146,7 @@
 				TargetAttributes = {
 					498A371E2032B3C8007AEA15 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,33 +176,78 @@
 			files = (
 				498A372D2032B3C8007AEA15 /* LaunchScreen.storyboard in Resources */,
 				498A372A2032B3C8007AEA15 /* Assets.xcassets in Resources */,
-				498A37282032B3C8007AEA15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1255382D71B96CF0385124F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeadsAndHands/Pods-HeadsAndHands-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F6351FEAE864D652BBD54ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D4AAF7CEEED57A24A0021EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeadsAndHands/Pods-HeadsAndHands-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		498A371B2032B3C8007AEA15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498A37472032D64F007AEA15 /* String+Utils.swift in Sources */,
+				498A37402032C727007AEA15 /* main.m in Sources */,
 				498A37252032B3C8007AEA15 /* ViewController.swift in Sources */,
 				498A37232032B3C8007AEA15 /* AppDelegate.swift in Sources */,
+				498A374B2032E637007AEA15 /* BaseVC.swift in Sources */,
+				498A37352032B449007AEA15 /* LoginVC.swift in Sources */,
+				498A373E2032B7DF007AEA15 /* TextField.swift in Sources */,
+				498A37452032CC43007AEA15 /* UIColor+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		498A37262032B3C8007AEA15 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				498A37272032B3C8007AEA15 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		498A372B2032B3C8007AEA15 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,14 +368,18 @@
 		};
 		498A37322032B3C8007AEA15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C550A96A069309E347587612 /* Pods-HeadsAndHands.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43ZK7FGVBM;
 				INFOPLIST_FILE = HeadsAndHands/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sinyutin.HeadsAndHands;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,11 +387,14 @@
 		};
 		498A37332032B3C8007AEA15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F33AEEDE19FE1D0D68DDB1DF /* Pods-HeadsAndHands.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43ZK7FGVBM;
 				INFOPLIST_FILE = HeadsAndHands/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sinyutin.HeadsAndHands;
 				PRODUCT_NAME = "$(TARGET_NAME)";
