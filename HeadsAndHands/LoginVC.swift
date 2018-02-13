@@ -56,7 +56,7 @@ class LoginVC: BaseVC {
         loginField.font = UIFont(name: ".SFUIText-Regular", size: 16)!
         loginField.textColor = UIColor.init(rgba: "#333333")
         loginField.delegate = self
-        loginField.text = "test@test.ru"
+//        loginField.text = "test@test.ru"
         
         passField.fieldTitle = "Пароль"
         passField.translatesAutoresizingMaskIntoConstraints = false
@@ -382,7 +382,7 @@ extension LoginVC:UITextFieldDelegate {
             }
             else { password.insert(newChar!, at: offsetToUpdate) }
             
-            for _ in password {  hashPassword += "#" }
+            for _ in password {  hashPassword += "*" }
             textField.text = hashPassword
             validate()
             return false
